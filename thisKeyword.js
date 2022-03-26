@@ -3,7 +3,12 @@
 // function() {
 //     console.log(this);
 // }
-objFn = function() {
-    console.log(this);
+// objFn = function() {
+//     console.log(this);
 
+// }
+
+function showThis() {
+    console.log(this);
 }
+showThis();
