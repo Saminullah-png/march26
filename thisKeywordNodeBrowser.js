@@ -31,10 +31,23 @@
 // }
 // showThis();
 
+// let obj = {
+//     name: 'Samin',
+//     f: function() {
+//         console.log(this)
+//     }
+// }
+// obj.f();
+
+//obj-fn-fn
+
 let obj = {
     name: 'Samin',
     f: function() {
-        console.log(this)
+        function g() {
+            console.log(this);
+        }
+        g();
     }
 }
 obj.f();
