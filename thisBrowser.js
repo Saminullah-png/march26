@@ -7,11 +7,24 @@
 
 // obj-fn in browser
 
-let obj = {
-    name: "Ahmad",
-    b: function() {
-        console.log(this);
+// let obj = {
+//     name: "Ahmad",
+//     b: function() {
+//         console.log(this);
 
+//     }
+// }
+// obj.b();
+
+// obj-fn-fn in browser
+
+let obj = {
+    name: 'Hamdullah',
+    g: function() {
+        function h() {
+            console.log(this);
+        }
+        h();
     }
 }
-obj.b();
+obj.g();
