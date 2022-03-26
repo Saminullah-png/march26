@@ -26,7 +26,15 @@
 
 //this keyword in a function??
 
-function showThis() {
-    console.log(this);
+// function showThis() {
+//     console.log(this);
+// }
+// showThis();
+
+let obj = {
+    name: 'Samin',
+    f: function() {
+        console.log(this)
+    }
 }
-showThis();
+obj.f();
