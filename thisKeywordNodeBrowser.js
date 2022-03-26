@@ -41,13 +41,13 @@
 
 //obj-fn-fn
 
-let obj = {
-    name: 'Samin',
-    f: function() {
-        function g() {
-            console.log(this);
-        }
-        g();
-    }
-}
-obj.f();
+// let obj = {
+//     name: 'Samin',
+//     f: function() {
+//         function g() {
+//             console.log(this);
+//         }
+//         g();
+//     }
+// }
+// obj.f();
