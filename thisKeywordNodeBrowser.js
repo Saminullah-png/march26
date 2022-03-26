@@ -18,3 +18,15 @@
 
 //     }
 //     showThis();
+
+// this command in node wrt strict mode
+
+'use strict'
+// console.log(this);
+
+//this keyword in a function??
+
+function showThis() {
+    console.log(this);
+}
+showThis();
