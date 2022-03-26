@@ -1,0 +1,1 @@
+console.log(this); // this command in node wrt non-strict mode O/P: {}
