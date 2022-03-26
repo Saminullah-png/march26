@@ -1,5 +1,9 @@
 // console.log(this); // this command in node wrt non-strict mode O/P: {}
 
-function() {
+// function() {
+//     console.log(this);
+// }
+objFn = function() {
     console.log(this);
+
 }
